@@ -58,6 +58,9 @@ namespace CalculatorWPF
                 case Operations.Division: Division(); break;
                 case Operations.Substraction: Substract(); break;
                 case Operations.Multiplication: Multiplication(); break;
+                case Operations.oneDivX: OneByX(); break;
+                case Operations.Power2: Power2(); break;
+                case Operations.Sqrt: Sqrt(); break;
             }
 
         }

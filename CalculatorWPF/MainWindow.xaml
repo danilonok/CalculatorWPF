@@ -30,9 +30,9 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-
-        <TextBox x:Name="inputArea" BorderThickness="0" Background="#EFF4F9" Grid.Column="0" Grid.ColumnSpan="5" FontSize="48" FontWeight="DemiBold" VerticalAlignment="Center" HorizontalAlignment="Right">0</TextBox>
-
+        <Viewbox StretchDirection="DownOnly" Stretch="Uniform" Grid.Column="0" Grid.ColumnSpan="5" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <TextBox x:Name="inputArea" BorderThickness="0" Background="#EFF4F9"  FontSize="48" FontWeight="DemiBold" >0</TextBox>
+        </Viewbox>
 
 
         <Button x:Name="percentButton" Click="percentButton_Click" Style="{StaticResource controlButton}" Grid.Column="0" Grid.Row="1" >%</Button>
